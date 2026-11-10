@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>진영 정책 운영 일정</title>
+<style>
+  :root { --bg:#0f172a; --card:#1e293b; --text:#f1f5f9; --muted:#94a3b8; --t1:#3b82f6; --t2:#f97316; --normal:#fbbf24; --border:#334155; --red:#ef4444; --yellow:#eab308; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif; background:var(--bg); color:var(--text); padding:12px; line-height:1.5; max-width:520px; margin:0 auto; }
+  h1 { font-size:1.4rem; margin-bottom:6px; text-align:center; }
+  .sub { color:var(--muted); font-size:0.85rem; text-align:center; margin-bottom:16px; }
+  .day { background:var(--card); border:1px solid var(--border); border-radius:12px; margin-bottom:14px; overflow:hidden; }
+  .day-title { background:#1e293b; padding:10px 14px; font-weight:700; font-size:1.05rem; border-bottom:1px solid var(--border); }
+  .policy { padding:10px 14px; border-bottom:1px solid #0f172a; }
+  .policy:last-child { border-bottom:none; }
+  .policy-name { font-weight:700; margin-bottom:2px; }
+  .policy-name.yellow { color:var(--yellow); }
+  .policy-name.red { color:var(--red); }
+  .time { font-size:0.9rem; color:var(--muted); }
+  .summary { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:14px; margin-top:8px; }
+  .summary h3 { margin-bottom:8px; font-size:1rem; }
+  .summary li { margin-left:18px; margin-bottom:4px; font-size:0.9rem; }
+  .rules { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:14px; margin-top:10px; }
+  .rules h3 { margin-bottom:8px; }
+  .rules li { margin-left:18px; margin-bottom:6px; font-size:0.88rem; }
+  .note { color:var(--muted); font-size:0.8rem; text-align:center; margin-top:12px; }
+</style>
+</head>
+<body>
+<h1>📢 진영 정책 최종 운영 일정</h1>
+<div class="sub">주간 반복 · 쿨타임 준수 · 중첩 없음</div>
+
+<div class="day">
+  <div class="day-title">📅 월요일</div>
+  <div class="policy"><div class="policy-name yellow">🟡 오곡 풍년</div><div class="time">⏰ 08:30 준비 → 09:00~12:00 활성</div></div>
+  <div class="policy"><div class="policy-name yellow">🟡 문교 진흥</div><div class="time">⏰ 12:30 준비 → 13:00~16:00 활성</div></div>
+  <div class="policy"><div class="policy-name red">🔴 삼군 포상 (용맥 연계)</div><div class="time">⏰ 19:00 준비 → 20:00~22:00 활성</div></div>
+  <div class="policy"><div class="policy-name red">🔴 군사 동원 (용맥 종료 후)</div><div class="time">⏰ 22:00 준비 → 22:30~익일 01:30 활성</div></div>
+</div>
+
+<div class="day">
+  <div class="day-title">📅 화요일</div>
+  <div class="policy"><div class="policy-name yellow">🟡 대흥 토목</div><div class="time">⏰ 08:30 준비 → 09:00~12:00 활성</div></div>
+</div>
+
+<div class="day">
+  <div class="day-title">📅 수요일</div>
+  <div class="policy"><div class="policy-name yellow">🟡 오곡 풍년</div><div class="time">⏰ 08:30 준비 → 09:00~12:00 활성</div></div>
+  <div class="policy"><div class="policy-name yellow">🟡 문교 진흥</div><div class="time">⏰ 12:30 준비 → 13:00~16:00 활성</div></div>
+  <div class="policy"><div class="policy-name red">🔴 배수진 (봉화군수 연계)</div><div class="time">⏰ 19:00 준비 → 20:00~22:00 활성</div></div>
+</div>
+
+<div class="day">
+  <div class="day-title">📅 목요일</div>
+  <div class="policy"><div class="policy-name yellow">🟡 대흥 토목</div><div class="time">⏰ 08:30 준비 → 09:00~12:00 활성</div></div>
+  <div class="policy"><div class="policy-name red">🔴 삼군 포상 (전공작 연계)</div><div class="time">⏰ 19:00 준비 → 20:00~22:00 활성</div></div>
+  <div class="policy"><div class="policy-name red">🔴 군사 동원 (전공작 종료 후)</div><div class="time">⏰ 22:00 준비 → 22:30~익일 01:30 활성</div></div>
+</div>
+
+<div class="day">
+  <div class="day-title">📅 금요일</div>
+  <div class="policy"><div class="policy-name yellow">🟡 대흥 토목</div><div class="time">⏰ 12:30 준비 → 13:00~16:00 활성</div></div>
+</div>
+
+<div class="day">
+  <div class="day-title">📅 토요일</div>
+  <div class="policy"><div class="policy-name yellow">🟡 오곡 풍년</div><div class="time">⏰ 08:30 준비 → 09:00~12:00 활성</div></div>
+  <div class="policy"><div class="policy-name yellow">🟡 문교 진흥</div><div class="time">⏰ 12:30 준비 → 13:00~16:00 활성</div></div>
+  <div class="policy"><div class="policy-name red">🔴 배수진 (낙양 전투 대응)</div><div class="time">⏰ 18:00 준비 → 19:00~21:00 활성</div></div>
+  <div class="policy"><div class="policy-name red">🔴 군사 동원 (낙양 종료 후)</div><div class="time">⏰ 22:00 준비 → 22:30~익일 01:30 활성</div></div>
+</div>
+
+<div class="day">
+  <div class="day-title">📅 일요일</div>
+  <div class="policy"><div class="policy-name yellow">🟡 대흥 토목</div><div class="time">⏰ 08:30 준비 → 09:00~12:00 활성</div></div>
+</div>
+
+<div class="summary">
+  <h3>📊 정책별 주간 발동 횟수</h3>
+  <ul>
+    <li>대흥 토목 : 4회</li>
+    <li>오곡 풍년 : 3회</li>
+    <li>문교 진흥 : 3회</li>
+    <li>군사 동원 : 3회</li>
+    <li>배수진 : 2회</li>
+    <li>삼군 포상 : 2회</li>
+  </ul>
+  <div style="margin-top:8px; font-weight:600;">➡️ 주간 총 17회 발동</div>
+</div>
+
+<div class="rules">
+  <h3>📌 필수 운영 규칙</h3>
+  <ul>
+    <li>오곡 풍년은 문교 진흥보다 먼저 배치</li>
+    <li>쿨타임은 실제 활성 종료 후부터 계산</li>
+    <li>정책 간 활성 시간 중복 금지</li>
+    <li>대흥 토목은 순환 일정에 따라 운영</li>
+    <li>군사 동원은 월·목·토요일 22시 준비</li>
+    <li>삼군 포상은 월·목요일 19시 준비</li>
+    <li>배수진은 수요일 19시, 토요일 18시 준비</li>
+  </ul>
+  <div class="note">※ 다음 주에도 동일한 일정으로 반복 운영</div>
+</div>
+
+<div style="position:fixed; bottom:0; left:0; right:0; background:#1e293b; border-top:1px solid #334155; display:flex; justify-content:center; padding:8px 0; z-index:100;">
+  <a href="index.html" style="flex:1; text-align:center; padding:10px; color:#94a3b8; font-weight:600; text-decoration:none; border-right:1px solid #334155;">문정</a>
+  <a href="policy.html" style="flex:1; text-align:center; padding:10px; color:#3b82f6; font-weight:700; text-decoration:none;">정책</a>
+</div>
+<div style="height:60px;"></div>
+</body>
+</html>
